@@ -1,0 +1,93 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #e0fbfc, #ee6c4d);
+    text-align: center;
+    
+    h1 {
+      font-size: 2rem;
+      color: white;
+      margin-bottom: 2rem;
+    }
+    
+    .login-form {
+      width: 300px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      
+      .input-field {
+        margin-bottom: 1rem;
+        width: 100%;
+      }
+      
+      .login-button {
+        width: 100%;
+        margin-bottom: 1rem;
+        background-color: #98c1d9;
+
+        &:hover {
+          background-color: #7ba7c9;
+        }
+      }
+      
+      .register-link {
+        font-size: 0.9rem;
+        color: #333;
+        
+        a {
+          color: #98c1d9;
+          text-decoration: none;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      
+      .divider {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 1.5rem 0;
+      }
+      
+      .login-with-text {
+        font-size: 0.9rem;
+        color: #333;
+        margin-bottom: 1rem;
+      }
+      
+      .social-buttons {
+        display: flex;
+        justify-content: space-between;
+        
+        .social-button {
+          flex: 1;
+          margin: 0 0.5rem;
+          
+         
+          
+          &.facebook {
+            background-color: #4267B2;
+            color: white;
+            border: none;
+          }
+          
+          &.google {
+            background-color: #DB4437;
+            color: white;
+            border: none;
+          }
+          
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+    }
+  }
+  
