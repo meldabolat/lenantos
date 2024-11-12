@@ -1,9 +1,9 @@
 import React from 'react'
 
-const StorageManagement = () => {
+const VStorageManagement = () => {
   return (
     <div>StorageManagement</div>
   )
 }
 
-export default StorageManagement
+export default VStorageManagement

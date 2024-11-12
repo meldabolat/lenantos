@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WanSetting = () => {
+const VlanSetting = () => {
   return (
     <div>WanSetting</div>
   )
 }
 
-export default WanSetting
+export default VlanSetting

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const LanSetting = () => {
+const VpnSetting = () => {
   return (
     <div>LanSetting</div>
   )
 }
 
-export default LanSetting
+export default VpnSetting
