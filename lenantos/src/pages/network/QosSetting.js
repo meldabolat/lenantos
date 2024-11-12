@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DhcpSetting = () => {
+const QosSetting = () => {
   return (
     <div>DhcpSetting</div>
   )
 }
 
-export default DhcpSetting
+export default QosSetting

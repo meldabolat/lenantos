@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DnsSetting = () => {
+const PortSetting = () => {
   return (
     <div>DnsSetting</div>
   )
 }
 
-export default DnsSetting
+export default PortSetting
