@@ -1,7 +1,7 @@
 import React from "react";
 import { Input, Button } from "antd";
 import { FacebookOutlined, GoogleOutlined, WhatsAppOutlined } from "@ant-design/icons";
-import "./LoginPage.scss";
+import "../scss/LoginPage.scss";
 
 const LoginPage = () => {
   return (

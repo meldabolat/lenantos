@@ -47,12 +47,14 @@ import DeviceManagement from "./pages/settings/DeviceManagement";
 import LicanceManagement from "./pages/settings/LicanceManagement";
 import Envanter from "./pages/settings/Envanter";
 import UserManagementS from "./pages/settings/UserManagementS";
+import LoginPage from "./pages/LoginPage";
 
 
 function App() {
   return (
     <Router>
       <Routes>
+      <Route path="login" element={<LoginPage />} /> 
         <Route path="/" element={<AppLayout />}>
           {/* Dashboard */}
           <Route path="dashboard" element={<Dashboard />} />
