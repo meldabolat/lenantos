@@ -1,0 +1,43 @@
+.device-management {
+    margin: 20px;
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            font-weight: bold;
+            background-color: #dfe6e9;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .available {
+            color: green;
+            font-weight: bold;
+        }
+
+        .unavailable {
+            color: red;
+            font-weight: bold;
+        }
+    }
+}

@@ -42,6 +42,12 @@ import MaintenanceRepair from "./pages/windows/MaintenanceRepair";
 import VirtualManagement from "./pages/virtualization/VirtualManagement";
 import NetworkProtocol from "./pages/network/NetworkProtocol";
 import HardWare from "./pages/loadBalancer/HardWare";
+import CompanyManagement from "./pages/settings/CompanyManagement";
+import DeviceManagement from "./pages/settings/DeviceManagement";
+import LicanceManagement from "./pages/settings/LicanceManagement";
+import Envanter from "./pages/settings/Envanter";
+import UserManagementS from "./pages/settings/UserManagementS";
+
 
 function App() {
   return (
@@ -101,6 +107,12 @@ function App() {
           <Route path="load-balancer/policy/hardware-policy" element={<HardWare />} />
           {/* Monitoring */}
           <Route path="monitoring" element={<Monitoring />} />
+          {/* Settings */}
+          <Route path="settings/company" element={<CompanyManagement />} />
+          <Route path="settings/device" element={<DeviceManagement />} />
+          <Route path="settings/user" element={<UserManagementS />} />
+          <Route path="settings/licance" element={<LicanceManagement />} />
+          <Route path="settings/envanter" element={<Envanter />} />
         </Route>
       </Routes>
     </Router>

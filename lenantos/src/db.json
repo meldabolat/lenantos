@@ -1,0 +1,24 @@
+{
+    "companies": [
+      { "id": 1, "name": "Company A" },
+      { "id": 2, "name": "Company B" }
+    ],
+    "users": [
+      { "id": 1, "username": "usera", "companyId": 1, "authorizedDevices": ["Vcenter", "Windows servers"] },
+      { "id": 2, "username": "user2", "companyId": 2, "authorizedDevices": ["Linux servers"] },
+      { "id": 3, "username": "user3", "companyId": 1, "authorizedDevices": ["Windows servers", "Linux servers"] }
+    ],
+    "deviceManagement": [
+        { "category": "Windows", "name": "Windows User Management", "basic": true, "orta": false, "gelismis": true },
+        { "category": "Windows", "name": "Windows Service Management", "basic": false, "orta": true, "gelismis": true },
+        { "category": "Windows", "name": "Windows Server Management", "basic": true, "orta": false, "gelismis": true },
+        { "category": "Linux", "name": "Linux User Management", "basic": true, "orta": true, "gelismis": false },
+        { "category": "Linux", "name": "Linux Service Management", "basic": false, "orta": true, "gelismis": true },
+        { "category": "Linux", "name": "Linux Server Management", "basic": true, "orta": true, "gelismis": false },
+        { "category": "Virtualization", "name": "Virtualization HyperV VStorage Management", "basic": false, "orta": false, "gelismis": true },
+        { "category": "Virtualization", "name": "Virtualization HyperV VNetwork Management", "basic": true, "orta": false, "gelismis": true },
+        { "category": "Security", "name": "Security VLAN Setting", "basic": true, "orta": false, "gelismis": false },
+        { "category": "Security", "name": "Security Port Setting", "basic": false, "orta": true, "gelismis": true }
+      ]
+  }
+  

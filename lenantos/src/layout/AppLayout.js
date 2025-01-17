@@ -8,6 +8,7 @@ import {
   LockOutlined,
   MonitorOutlined,
   BarsOutlined,
+  SettingOutlined,
 } from "@ant-design/icons";
 import { Link, Outlet } from "react-router-dom";
 import "./Layout.scss";
@@ -181,6 +182,28 @@ const AppLayout = () => {
           <Menu.Item key="monitoring" icon={<MonitorOutlined />}>
             <Link to="/monitoring">Monitoring</Link>
           </Menu.Item>
+         
+         
+          <SubMenu key="settings" icon={<SettingOutlined />} title="Settings">
+          <Menu.Item key="company-management">
+                <Link to="/settings/company">Company Management</Link>
+              </Menu.Item>
+              <Menu.Item key="device-management">
+                <Link to="/settings/device">Device Management</Link>
+              </Menu.Item>
+              <Menu.Item key="user-management">
+                <Link to="/settings/user">User Management</Link>
+              </Menu.Item>
+              <Menu.Item key="licance-management">
+                <Link to="/settings/licance">Licance Management</Link>
+              </Menu.Item>
+              <Menu.Item key="envanter">
+                <Link to="/settings/envanter">Envanter</Link>
+              </Menu.Item>
+          </SubMenu>
+        
+        
+        
         </Menu>
       </Sider>
       <Layout className="site-layout">
